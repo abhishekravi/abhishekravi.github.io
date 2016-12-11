@@ -1,6 +1,9 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
-        anchors: ['home', 'Resume', 'projects', 'contact'],
-        scrollingSpeed: 1000
+        anchors: ['home', 'about','Resume', 'projects'],
+        //normalScrollElements:['#section3'],
+        scrollingSpeed: 1000,
+        scrollOverflow: false,
+        autoScrolling: false
     });
 });
