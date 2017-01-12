@@ -3,7 +3,10 @@ $(document).ready(function() {
         anchors: ['home', 'about','Resume', 'projects'],
         //normalScrollElements:['#section3'],
         scrollingSpeed: 1000,
-        scrollOverflow: false,
-        autoScrolling: false
+        scrollOverflow: true,
+        mouseWheelScrolling: false,
+        autoScrolling: false,
+        verticalCentered: false
     });
+
 });
